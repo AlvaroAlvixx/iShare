@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta Boostrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>iShare - Register</title>
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/2795d4c61a.js" crossorigin="anonymous"></script>
+    <!-- My Styles -->
+    <link rel="stylesheet" href="CSS/stylenewpost.css">
+    <link rel="stylesheet" href="CSS/global.css">
+    <!-- My Scripts JS -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="JS/validacao.js"></script>
+    <script type="text/javascript" src="JS/register.js"></script>
+    <link rel="icon" type="imagem/png" href="img/icon.png" />
+</head>
+
+<body>
+
+    <header class="container-fluid header">
+
+        <!-- LINHA LOGO -->
+        <div class="row" style="margin-bottom: 10px;">
+            <div class="col-12">
+                <div class="row">
+                    <!-- Logo -->
+                    <div class="col-12 col-sm-12 col-md-5 col-lg-3 logo">
+                        <img src="img/logoiShare.png" class="logo">
+                    </div>
+
+                    <!-- Login -->
+                    <div class="col-12 col-sm-12 col-md-7 col-lg-9 info">
+
+                        <ul class="nav justify-content-end" id="topMenu">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">Log In</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LINHA MENU PRINCIPAL -->
+        <div class="row">
+
+            <div class="col-12">
+                <!-- Menu Principal -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu">
+                    <a class="navbar-brand">
+                        <i class="fa fa-bullhorn" style="text-decoration: none; color: white;"></i>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Início <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="mypage.html">My Page <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="sobre.html">Sobre <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contato.html">Contato <span class="sr-only">(current)</span></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <main class="container main">
+        <!-- Registrar -->
+        <form class="text-center p-5" action="index.html" id="formRegister">
+            <p class="h4 mb-4">Registrar</p>
+
+            <!-- Nome -->
+            <input type="text" id="regNome" class="form-control mb-4 campo" placeholder="Nome" autocomplete="off" />
+
+            <!-- Email -->
+            <input type="text" id="regEmail" class="form-control mb-4" placeholder="E-mail" autocomplete="off" />
+
+            <!-- Senha -->
+            <input type="password" id="regSenha" class="form-control mb-4" placeholder="Senha" autocomplete="off" />
+
+            <!-- Confirmar Senha -->
+            <input type="password" id="regConfSenha" class="form-control mb-4" placeholder="Confirme a Senha" autocomplete="off" />
+
+            <!-- Checkbox -->
+            <h5>Interesses:</h5>
+            <ul>
+                <li>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="regMusics" />
+                        <label class="custom-control-label" for="regMusics">Musicas</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="regGames" />
+                        <label class="custom-control-label" for="regGames">Games</label>
+                    </div>
+                </li>
+                <li>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="regSeries" />
+                        <label class="custom-control-label" for="regSeries">Series</label>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="termos">
+                <a href="#">Termos de Uso</a>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="regTermos" />
+                    <label class="custom-control-label" for="regTermos">Li e aceito os termos de uso.</label>
+                </div>
+            </div>
+
+            <!-- Confirm button -->
+            <button class="btn btn-info btn-block confirmar" type="submit">Confirmar</button>
+        </form>
+    </main>
+
+    <footer class="container-fluid footer">
+
+        <!-- LINHA FOOTER -->
+        <div class="row footer-info">
+
+            <!-- Rodapé Sobre -->
+            <div class="col-4" style="text-align: justify;">
+                <h5 class="text-center">Sobre</h5>
+                <p>
+                    Nosso site tem como foco proporcionar aos criadores de conteúdo uma forma de crescerem através de nosso sistema de divulgação, sempre visando melhores oportunidades a todos!
+
+                </p>
+            </div>
+
+            <!-- Rodapé Links -->
+            <div class="col-4 links-footer">
+                <h5 class="text-center">Links</h5>
+                <div class="row">
+                    <div class="col-6">
+                        <ul>
+                            <li>
+                                <a href="index.html">Início</a>
+                            </li>
+                            <li>
+                                <a href="mypage.html">My Page</a>
+                            </li>
+                            <li>
+                                <a href="sobre.html">Sobre</a>
+                            </li>
+                            <li>
+                                <a href="contato.html">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul>
+                            <li>
+                                <a href="login.html">Log In</a>
+                            </li>
+                            <li>
+                                <a href="register.html">Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="col-4">
+                <!-- Rodapé Social -->
+                <div class="row text-center">
+                    <div class="col-12">
+                        <h5>Nos siga em:</h5>
+                    </div>
+                    <div class="col-12 social">
+                        <a href="#"><i class="fa fa-twitter-square"></i></a>
+                        <a href="#"><i class="fa fa-facebook-square"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Rodapé Copyright -->
+        <div class="row">
+
+            <div class="col-12 text-center">
+                <p>@Copyright 2020 - iShare, Todos direitos reservados</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- JS Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+</html>

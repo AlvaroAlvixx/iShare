@@ -1,0 +1,59 @@
+/* Posts */
+
+.main {
+    margin-top: 20px;
+}
+
+.cointainer-posts {
+    background-color: #0c53ec;
+    padding: 25px;
+    border-radius: 0%;
+}
+
+.area-cards {
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #00000050 !important;
+    color: white;
+}
+
+.grid-posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px
+}
+
+.button-posts {
+    font-size: 40px;
+}
+
+.button-posts a:hover {
+    color: white;
+}
+
+.main h4 {
+    color: white;
+    margin-left: 15px;
+}
+
+.cointainer-posts {
+    margin-top: 10px;
+    border: solid white 3px;
+    border-radius: 10px;
+}
+
+
+/* Carousel posts */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+body {
+    background-color: #F0F1F5;
+    font-family: 'Roboto', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}

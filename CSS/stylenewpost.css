@@ -1,0 +1,79 @@
+.main li {
+    list-style-type: none;
+}
+
+.main ul {
+    text-align: left;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.main h5 {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.btn-info {
+    margin-top: 10px;
+    background-color: #0c74ec;
+    border: none;
+}
+
+.main {
+    margin-top: 10px;
+    background-color: #0c53ec;
+    color: white;
+    border: solid white 3px;
+    border-radius: 10px;
+}
+
+#regNome,
+#regEmail,
+#regSenha,
+#regConfSenha,
+#logEmail,
+#logSenha,
+#newTitulo,
+#newLink,
+#newDescricao,
+#upload {
+    background-color: #00000050;
+    border: none;
+    color: white;
+}
+
+#logEmail::placeholder,
+#logSenha::placeholder,
+#regNome::placeholder,
+#regSenha::placeholder,
+#regEmail::placeholder,
+#regConfSenha::placeholder,
+#newTitulo::placeholder,
+#newLink::placeholder,
+#newDescricao::placeholder {
+    color: rgba(255, 255, 255, 0.63);
+    opacity: 1;
+}
+
+.custom-file label {
+    background-color: #00000050;
+    border: none;
+}
+
+.termos {
+    background-color: #00000032;
+}
+
+.custom-file input {
+    color: red !important;
+}
+
+.confirmar:hover {
+    background-color: #028dff;
+}
+
+.divLogin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}

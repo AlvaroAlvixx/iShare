@@ -1,0 +1,113 @@
+/* Carrossel */
+
+img {
+    max-width: 100%;
+}
+
+.carousel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #0c53ec;
+    padding: 5px;
+    color: white;
+    border-radius: 1%;
+}
+
+.carousel-conteudo {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.carousel-texto {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.carousel p,
+h4 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.carousel img {
+    margin-bottom: 10px;
+    border-color: white;
+    border-style: outset;
+    border-radius: 10px;
+}
+
+.carousel-indicators {
+    position: relative;
+}
+
+.carousel-indicators li {
+    background-color: white;
+}
+
+
+/* Menu Posts */
+
+form.form-inline.my-2.lg-0 {
+    text-align: center;
+}
+
+.fa-plus-circle {
+    padding: 4px;
+}
+
+.drop {
+    margin-left: .25rem;
+}
+
+.menu-posts a,
+form {
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+.menu-posts {
+    background-color: #0c53ec !important;
+}
+
+.area-menu-posts {
+    margin-bottom: 5px;
+}
+
+
+/* Posts */
+
+.cointainer-posts {
+    background-color: #0c53ec;
+    padding: 25px;
+    border-radius: 0%;
+}
+
+.area-cards {
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #00000050 !important;
+    color: white;
+}
+
+.grid-posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px
+}
+
+.button-posts {
+    font-size: 40px;
+}
+
+.button-posts a:hover {
+    color: white;
+}
+
+@media screen and (max-width:768px) {
+    .menu-posts a,
+    form {
+        margin: 0px;
+    }
+}
